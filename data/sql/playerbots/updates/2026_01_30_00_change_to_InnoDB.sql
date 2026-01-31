@@ -2,8 +2,6 @@
 SET SESSION innodb_strict_mode = 0;	
 
 -- Change the tables to InnoDB
-ALTER TABLE playerbots_guild_names ENGINE=InnoDB;
-ALTER TABLE playerbots_names ENGINE=InnoDB;
 ALTER TABLE playerbots_dungeon_suggestion_abbrevation ENGINE=InnoDB;
 ALTER TABLE playerbots_dungeon_suggestion_definition ENGINE=InnoDB;
 ALTER TABLE playerbots_dungeon_suggestion_strategy ENGINE=InnoDB;
